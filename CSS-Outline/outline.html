@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <!--Outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out"-->
+    <head>
+        <style>
+            p.first {
+                outline:pink solid 10px;
+            }
+            /*There are different outline-styles
+                dashed,groove,inset,outset,none,hidden,solid,double,rigid*/
+            p.second {
+                outline-style:dotted;
+            }
+            /*outline-width can be thin,medium,thick*/
+            p.third{
+                outline-width:thick;
+            }
+            /*We can even give color to  outline*/
+            p.fourth{
+                outline-color:blue;
+            }
+            /*The outline shorthand helps us write all the three attributes in a line*/
+            p.fifth{
+                outline:dotted red;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="first">Hello World</p>
+        <p class="second">Hello World</p>
+        <p class="third">Hello World</p>
+        <p class="fourth">Hello World</p>
+        <p class="fifth">Hello World</p>
+    </body>
+</html>
