@@ -12,10 +12,20 @@
                 left:30px;
                 border:3px solid pink;
             }
+            /*It always stays in the same place even if the page is scrolled.*/
+            div.fixed{
+                position:fixed;
+                bottom:0;
+                right:0;
+                width:50px;
+                height:50px;
+                border:3px solid black;
+            }
         </style>
     </head>
     <body>
         <dic class="static">This is static positioning</dic>
         <div class="relative">This is relative positioning</div>
+        <div class="fixed">This is fixed positioning</div>
     </body>
 </html>
